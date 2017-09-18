@@ -28,6 +28,7 @@ type Category struct {
 
 // CategoryColor represents colors of AQI categories
 var CategoryColor = []color.RGBA{
+	color.RGBA{0, 0, 0, 0},     // Black, unknown
 	color.RGBA{0, 228, 0, 0},   // Green, Good
 	color.RGBA{255, 255, 0, 0}, // Yellow, Moderate
 	color.RGBA{255, 126, 0, 0}, // Orange, Unhealthy for Sensitive Groups
